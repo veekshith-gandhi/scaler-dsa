@@ -12,7 +12,6 @@ const searchForK = (array,k) =>{
     while (left <= right) {
         const mid = Math.floor((left + right)/2);
         const element = array[mid];
-        console.log(mid , element)
         if(element == k){
             return mid;
         }else if(element < k){
